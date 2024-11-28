@@ -7,6 +7,7 @@ import AcademicProjects from "./components/AcademicProjects";
 import Leadership from "./components/Leadership";
 import Honors from "./components/Honors";
 import Contact from "./components/Contact";
+import WhatIDo from "./components/WhatIDo";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <nav>
             <ul className="nav-links">
               <li><a href="#about">About</a></li>
+              <li><a href="whatIdo"></a>What I Do</li>
               <li><a href="#education">Education</a></li>
               <li><a href="#experience">Experience</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -31,8 +33,9 @@ function App() {
 
       {/* Sections */}
       <Hero />
-      <Education />
+      <WhatIDo />
       <Experience />
+      <Education />
       <AcademicProjects />
       <Leadership />
       <Honors />
