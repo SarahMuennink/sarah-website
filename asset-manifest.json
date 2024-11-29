@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sarah-website/static/css/main.c87b6094.css",
-    "main.js": "/sarah-website/static/js/main.0ab6f729.js",
+    "main.css": "/sarah-website/static/css/main.832152c7.css",
+    "main.js": "/sarah-website/static/js/main.45b673fa.js",
     "static/js/453.77e61e37.chunk.js": "/sarah-website/static/js/453.77e61e37.chunk.js",
     "index.html": "/sarah-website/index.html",
-    "main.c87b6094.css.map": "/sarah-website/static/css/main.c87b6094.css.map",
-    "main.0ab6f729.js.map": "/sarah-website/static/js/main.0ab6f729.js.map",
+    "main.832152c7.css.map": "/sarah-website/static/css/main.832152c7.css.map",
+    "main.45b673fa.js.map": "/sarah-website/static/js/main.45b673fa.js.map",
     "453.77e61e37.chunk.js.map": "/sarah-website/static/js/453.77e61e37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c87b6094.css",
-    "static/js/main.0ab6f729.js"
+    "static/css/main.832152c7.css",
+    "static/js/main.45b673fa.js"
   ]
 }
