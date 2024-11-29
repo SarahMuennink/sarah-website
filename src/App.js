@@ -3,9 +3,6 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import AcademicProjects from "./components/AcademicProjects";
-import Leadership from "./components/Leadership";
-import Honors from "./components/Honors";
 import Contact from "./components/Contact";
 import WhatIDo from "./components/WhatIDo";
 
@@ -18,13 +15,9 @@ function App() {
           <h1 className="logo">Sarah Muennink Saathoff</h1>
           <nav>
             <ul className="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="whatIdo"></a>What I Do</li>
+              <li><a href="#whatIDo">What I Do</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#leadership">Leadership</a></li>
-              <li><a href="#honors">Honors</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -36,9 +29,6 @@ function App() {
       <WhatIDo />
       <Experience />
       <Education />
-      <AcademicProjects />
-      <Leadership />
-      <Honors />
       <Contact />
     </div>
   );

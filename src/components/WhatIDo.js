@@ -1,9 +1,8 @@
 import React from "react";
-import "../App.css";
+import "../components/css/WhatIDo.css"
 
 const whatIDo = [
   {
-    icon: "💻",
     title: "Accounts Payable and Financial Operations",
     points: [
       "Efficient Claims Auditing: Review and process county claims to ensure compliance with governmental statutes, facilitating accurate and timely payments.",
@@ -40,7 +39,7 @@ const whatIDo = [
 
 const WhatIDo = () => {
   return (
-    <div className="container">
+    <div id="whatIDo" className="container">
       <h2>What I Do</h2>
       {whatIDo.map((section, index) => (
         <div key={index} className="section what-i-do-item">

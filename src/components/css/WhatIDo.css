@@ -1,0 +1,87 @@
+/* Container Styles */
+.container {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for responsive design */
+    gap: 20px; /* Adds spacing between the grid items */
+    justify-content: center; /* Centers the grid layout horizontally */
+  }
+  
+  /* Section Title Styles */
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #c06014; /* Highlighting the main title in the orange color */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adds spacing for a polished look */
+    width: 100%; /* Ensures the title spans the full width of the container */
+  }
+  
+  /* Grid Layout for Cards */
+  .what-i-do-item {
+    background-color: #f4f4f4; /* Paper-like background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px 25px;
+    flex: 1 1 calc(50% - 20px); /* Ensures each card takes 50% of the width minus the gap */
+    box-sizing: border-box; /* Includes padding and border in the width */
+    max-width: 500px; /* Ensures a max width for larger screens */
+    transition: all 0.3s ease-in-out; /* Smooth hover transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+  }
+  
+  /* Hover Effect for Cards */
+  .what-i-do-item:hover {
+    transform: translateY(-5px); /* Lifts the card slightly */
+    background-color: #c06014; /* Changes background color to orange */
+    color: #ffffff; /* Makes text color white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  
+  /* Title of Each Section */
+  .what-i-do-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333; /* Dark text for better contrast */
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    transition: color 0.3s ease-in-out; /* Smooth transition for text color on hover */
+  }
+  
+  /* Title Color on Hover */
+  .what-i-do-item:hover .what-i-do-title {
+    color: #ffffff; /* Changes title text color to white on hover */
+  }
+  
+  /* Bullet Points List */
+  .what-i-do-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .what-i-do-list li {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333333; /* Default dark text */
+    position: relative;
+    padding-left: 20px; /* Space for custom bullet */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  /* Bullet Design */
+  .what-i-do-list li:before {
+    content: "•"; /* Custom bullet */
+    position: absolute;
+    left: 0;
+    color: #c06014; /* Matches the accent color */
+    font-size: 1.2rem; /* Slightly larger bullet */
+    line-height: 1.2; /* Aligns with text */
+  }
+  
+  /* Hover Effect for List Items */
+  .what-i-do-item:hover li {
+    color: #ffffff; /* Changes list text color to white on hover */
+  }
+  

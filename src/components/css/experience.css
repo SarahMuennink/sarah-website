@@ -1,0 +1,83 @@
+/* Container Styles */
+.container {
+    padding: 40px 20px;
+  }
+  
+  /* Section Title Styles */
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #c06014; /* Highlighting the section title in orange */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adds spacing for a polished look */
+  }
+  
+  /* Card Styles for Each Experience */
+  .experience-item {
+    background-color: #f4f4f4; /* Paper-like background */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px 25px;
+    margin-bottom: 20px; /* Space between cards */
+    transition: all 0.3s ease-in-out; /* Smooth hover transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+    max-width: 800px; /* Limits the width for larger screens */
+    margin-left: auto; /* Centers the card horizontally */
+    margin-right: auto; /* Centers the card horizontally */
+  }
+  
+  /* Hover Effect for Cards */
+  .experience-item:hover {
+    transform: translateY(-5px); /* Lifts the card slightly */
+    background-color: #c06014; /* Changes background color to orange */
+    color: #ffffff; /* Makes text color white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow */
+  }
+  
+  /* Title Styles for Each Experience */
+  .experience-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333333; /* Dark text for better contrast */
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out; /* Smooth transition for text color on hover */
+  }
+  
+  /* Title Color on Hover */
+  .experience-item:hover .experience-title {
+    color: #ffffff; /* Changes title text color to white on hover */
+  }
+  
+  /* Location and Dates Styles */
+  .experience-location, .experience-dates {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666666; /* Subtle gray for location and dates */
+    margin-bottom: 5px;
+  }
+  
+  /* Location and Dates Color on Hover */
+  .experience-item:hover .experience-location,
+  .experience-item:hover .experience-dates {
+    color: #ffffff; /* Changes location and dates text color to white on hover */
+  }
+  
+  /* Description Styles */
+  .experience-description {
+    margin-top: 10px;
+  }
+  
+  .experience-description p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333333; /* Default dark text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out; /* Smooth transition for text color on hover */
+  }
+  
+  /* Description Text Color on Hover */
+  .experience-item:hover .experience-description p {
+    color: #ffffff; /* Changes description text color to white on hover */
+  }
+  
